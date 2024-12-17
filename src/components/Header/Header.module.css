@@ -1,0 +1,7 @@
+.header {
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(240, 225, 206);
+    height: max-content;
+    width: 100%;
+}
