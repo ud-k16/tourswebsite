@@ -4,4 +4,8 @@
     background-color: rgb(240, 225, 206);
     height: max-content;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 0 15px black;
 }
