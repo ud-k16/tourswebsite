@@ -13,7 +13,7 @@ const FloatingWhatsappButton = () => {
 
   return (
     <div className={styles.whatsappButton} onClick={handleClick}>
-      <FaWhatsapp size={60} color="#25D366" />
+      <FaWhatsapp size={45} color="white" />
     </div>
   );
 };
