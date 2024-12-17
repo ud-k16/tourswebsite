@@ -1,8 +1,8 @@
 .header {
     position: fixed;
     z-index: 1000;
-    background-color: rgb(240, 225, 206);
-    height: max-content;
+    background-color:white;
+    height: 20vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -11,17 +11,23 @@
 }
 
 .logoContainer {
-    width: 60%;
+    width: 50%;
+   
 }
 
 .actionContainer {
     display: flex;
    column-gap: 56px;
     color: #000;
-    width: 40%;
+    width: 50%;
 }
 
 .linkText {
     text-decoration: none;
     font-size: large;
+    font-weight: 600;
+}
+
+.linkText:hover {
+    color: orangered;
 }
