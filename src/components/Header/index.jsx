@@ -3,15 +3,23 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <img src="" alt="xcel-logo" />
-      <nav>
-        <ul>
-          <a href="/">Home</a>
-
-          <a href="/about">About</a>
-
-          <a href="/contact">Contact</a>
-        </ul>
+      <img src="" alt="xcel-logo" className={styles.logoContainer} />
+      <nav className={styles.actionContainer}>
+        <a href="/" className={styles.linkText}>
+          Home
+        </a>
+        <a href="/about" className={styles.linkText}>
+          About
+        </a>
+        <a href="/blog" className={styles.linkText}>
+          Blog
+        </a>
+        <a href="/gallery" className={styles.linkText}>
+          Gallery
+        </a>
+        <a href="/contact" className={styles.linkText}>
+          Contact
+        </a>
       </nav>
     </header>
   );

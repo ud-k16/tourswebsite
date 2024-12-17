@@ -9,3 +9,19 @@
     align-items: center;
     box-shadow: 10px 0 15px black;
 }
+
+.logoContainer {
+    width: 60%;
+}
+
+.actionContainer {
+    display: flex;
+   column-gap: 56px;
+    color: #000;
+    width: 40%;
+}
+
+.linkText {
+    text-decoration: none;
+    font-size: large;
+}
