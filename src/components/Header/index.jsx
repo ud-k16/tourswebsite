@@ -1,9 +1,10 @@
 import styles from "./Header.module.css";
+import LOGO from "../../assests/logo.png";
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <img src="" alt="xcel-logo" className={styles.logoContainer} />
+      <img src={LOGO} alt="xcel-logo" className={styles.logoContainer} />
       <nav className={styles.actionContainer}>
         <a href="/" className={styles.linkText}>
           Home
