@@ -32,3 +32,22 @@
 .linkText:hover {
     color: orangered;
 }
+
+@media (max-width: 768px) {
+    .header {
+        position: fixed;
+        z-index: 1000;
+        background-color:white;
+        height: 15vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 10px 0 15px black;
+    }
+    .logoContainer {
+        width: 50%;
+        height: 15vh;
+       
+    }
+}
