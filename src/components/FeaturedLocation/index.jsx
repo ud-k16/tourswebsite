@@ -30,6 +30,17 @@ const FeaturedLocation = ({ featuredTour }) => {
                 <p style={{ margin: 0 }}>Rs. {data.package}</p>
               </div>
             </div>
+            <div className={styles.action}>
+              <div className={styles.buttonStyle}>
+                <p style={{ margin: 0 }}>View More</p>
+              </div>
+              <div
+                className={styles.buttonStyle}
+                style={{ background: "#230477" }}
+              >
+                <p style={{ margin: 0 }}>Book Now</p>
+              </div>
+            </div>
           </div>
         </div>
       ))}
