@@ -1,6 +1,6 @@
 export const featuredTour = [
   {
-    url: "https://burst.shopify.com/photos/beautiful-sunset-over-sea",
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
 
     to: "Japan-South Korea",
     package: "1,23,45,300",
@@ -8,7 +8,7 @@ export const featuredTour = [
     days: "11",
   },
   {
-    url: "https://cdn.pixabay.com/photo/2016/11/18/17/25/ferris-wheel-1838419_960_720.jpg",
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
 
     to: "scandinavia",
     package: "3,45,12,300",
@@ -16,7 +16,7 @@ export const featuredTour = [
     days: "9",
   },
   {
-    url: "https://images.pexels.com/photos/1070972/pexels-photo-1070972.jpeg",
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
 
     to: "UK - Europe",
     package: "8,67,300",
@@ -24,7 +24,7 @@ export const featuredTour = [
     days: "5",
   },
   {
-    url: "https://images.unsplash.com/photo-1604014073880-5b08b10a07b5",
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
 
     to: "Eastern Europe",
     package: "5,45,000",

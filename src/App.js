@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import FloatingWhatsappButton from "./components/WhatsAppButton";
 import EnquiryButton from "./components/Enquiry";
+
+import { featuredTour } from "./sampledata/sampledata";
+import FeaturedLocation from "./components/FeaturedLocation";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Header />
       <FloatingWhatsappButton />
       <EnquiryButton />
+      <FeaturedLocation featuredTour={featuredTour} />
     </div>
   );
 }
