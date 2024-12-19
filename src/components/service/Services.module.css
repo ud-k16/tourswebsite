@@ -1,7 +1,7 @@
 .container {
     display: flex;
     padding: 5vw 0 ;
-    width: 100vw;  
+    width: 100%;  
     background: linear-gradient(180deg, #230477, #9d94b6);
     justify-content: center;
    
@@ -10,7 +10,7 @@
 
 
 .textSection {
-    width:20%;
+    width:20vw;
     color: white;
     font-size: 20px;
     line-height: 30px;
@@ -24,11 +24,12 @@
     margin:0px 
 }
 .cardSection {
-    width: 60%;
+    width: 60vw;
     flex-wrap: wrap;
     display:flex;
+    /* margin: 0 20px; */
     /* background-color: aqua; */
-   
-    justify-content: space-between;
+   column-gap: 20px;
+    justify-content: center;
     row-gap: 20px;
 }

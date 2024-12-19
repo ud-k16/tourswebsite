@@ -1,20 +1,29 @@
 .container {
-    border-radius: 10%;
-    background-color: white;
-    width: 45%;
-    height: 30vh;
-    
+   display:flex;
+ 
+width:40vw
 }
 
+.box{
+    border-radius: 25px;
+    background-color: white;
+    width: 25vw;
+    height: 30vh;
+    position: relative;
+    margin:20px 0
+}
 .icon {
-
+   top:-40px;
+   left:40%;
+   position: relative;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    z-index: 1000;
+    border-radius: 30px;
+   
     border-width: 3px;
     border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
