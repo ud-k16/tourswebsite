@@ -50,4 +50,23 @@
         height: 15vh;
        
     }
+    .drawerItemContainer {
+        display:flex;
+        flex-direction: column;
+       
+       padding: 40px 20px;
+       row-gap: 60px;
+       
+    }
+    .linkText {
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .drawerItem{
+        width: 100%;
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+    }
 }
