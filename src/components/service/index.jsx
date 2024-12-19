@@ -1,3 +1,4 @@
+import ServiceCard from "../ServiceCard";
 import styles from "./Services.module.css";
 
 const Services = () => {
@@ -12,7 +13,12 @@ const Services = () => {
         best international group travel packages and customized travel packages,
         along with successful fixed departures.
       </div>
-      <div className={styles.cardSection}></div>
+      <div className={styles.cardSection}>
+        <ServiceCard />
+        <ServiceCard />
+        <ServiceCard />
+        <ServiceCard />
+      </div>
     </div>
   );
 };
