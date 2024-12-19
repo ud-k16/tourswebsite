@@ -1,12 +1,10 @@
 import styles from "./ServiceCard.module.css";
 import { IoHomeOutline } from "react-icons/io5";
 
-const ServiceCard = () => {
+const ServiceCard = ({ icon }) => {
   return (
     <div className={styles.box}>
-      <div className={styles.icon}>
-        <IoHomeOutline size={40} />
-      </div>
+      <div className={styles.icon}>{icon}</div>
     </div>
   );
 };

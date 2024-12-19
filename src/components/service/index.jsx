@@ -1,5 +1,9 @@
 import ServiceCard from "../ServiceCard";
 import styles from "./Services.module.css";
+import { PiSuitcaseSimple } from "react-icons/pi";
+import { RiTodoLine } from "react-icons/ri";
+import { GrMoney } from "react-icons/gr";
+import { AiOutlineTeam } from "react-icons/ai";
 
 const Services = () => {
   return (
@@ -14,10 +18,10 @@ const Services = () => {
         along with successful fixed departures.
       </div>
       <div className={styles.cardSection}>
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        <ServiceCard icon={<PiSuitcaseSimple size={40} />} />
+        <ServiceCard icon={<RiTodoLine size={40} />} />
+        <ServiceCard icon={<GrMoney size={40} />} />
+        <ServiceCard icon={<AiOutlineTeam size={40} />} />
       </div>
     </div>
   );
