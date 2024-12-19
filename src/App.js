@@ -5,6 +5,7 @@ import EnquiryButton from "./components/Enquiry";
 
 import { featuredTour } from "./sampledata/sampledata";
 import FeaturedLocation from "./components/FeaturedLocation";
+import Services from "./components/service";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <FloatingWhatsappButton />
       <EnquiryButton />
       <FeaturedLocation featuredTour={featuredTour} />
+      <Services />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    padding: 10px 10vw;
+    width: 100%;
+    /* height: 160vh; */
+    background: linear-gradient(180deg, #230477, #9d94b6);
+}
+
+
+
+.textSection {
+    flex: 0.2;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+.headingText{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    margin:0px 
+}
+.cardSection {
+    flex: 0.8;
+    flex-wrap: wrap;
+
+}
