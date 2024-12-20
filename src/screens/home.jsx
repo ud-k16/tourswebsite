@@ -4,6 +4,7 @@ import EnquiryButton from "../components/Enquiry";
 import FeaturedLocation from "../components/home/FeaturedLocation";
 import Services from "../components/home/service";
 import { featuredTour } from "../sampledata/sampledata";
+import Achievements from "../components/home/Achievements";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <EnquiryButton />
       <FeaturedLocation featuredTour={featuredTour} />
       <Services />
+      <Achievements />
     </div>
   );
 };
