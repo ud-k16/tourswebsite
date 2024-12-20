@@ -1,20 +1,17 @@
 import "./App.css";
-import Header from "./components/Header";
-import FloatingWhatsappButton from "./components/WhatsAppButton";
-import EnquiryButton from "./components/Enquiry";
-
-import { featuredTour } from "./sampledata/sampledata";
-import FeaturedLocation from "./components/FeaturedLocation";
-import Services from "./components/service";
+import { BrowserRouter, Routes, Route } from "react-router";
+import Home from "./screens/home";
+import TempScreen from "./screens/temp";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <FloatingWhatsappButton />
-      <EnquiryButton />
-      <FeaturedLocation featuredTour={featuredTour} />
-      <Services />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<TempScreen />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

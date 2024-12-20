@@ -1,5 +1,4 @@
 import styles from "./ServiceCard.module.css";
-import { IoHomeOutline } from "react-icons/io5";
 
 const ServiceCard = ({ icon }) => {
   return (
