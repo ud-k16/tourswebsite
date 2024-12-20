@@ -57,6 +57,18 @@ const Achievements = () => {
         <div className={styles.count}>{customerCount}+</div>
         <div className={styles.title}>{"Happy Customers"}</div>
       </div>
+      <div className={styles.section}>
+        <div className={styles.count}>{customerCount}+</div>
+        <div className={styles.title}>{"Happy Customers"}</div>
+      </div>
+      <div className={styles.section}>
+        <div className={styles.count}>{customerCount}+</div>
+        <div className={styles.title}>{"Happy Customers"}</div>
+      </div>{" "}
+      <div className={styles.section}>
+        <div className={styles.count}>{customerCount}+</div>
+        <div className={styles.title}>{"Happy Customers"}</div>
+      </div>
     </div>
   );
 };

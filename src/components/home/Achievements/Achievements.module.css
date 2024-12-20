@@ -5,7 +5,7 @@
     box-shadow: 10px 10px 15px black;
     background-color: white;
     width:78vw;
-    height:30vh;
+    padding: 40px 20px;
     display: flex;
     justify-content: space-around;
     
@@ -18,11 +18,12 @@
    
 }
 .count{
-    font-size: 30px;
+    font-size: 40px;
     color: #230477;
+    font-weight: 600;
 }
 .title{
-    font-size: 30px;
+    font-size: 20px;
     color: black
 }
 @keyframes fadeIn {
