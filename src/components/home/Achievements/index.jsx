@@ -1,6 +1,63 @@
+import { useEffect, useRef, useState } from "react";
 import styles from "./Achievements.module.css";
 
 const Achievements = () => {
-  return <div className={styles.container}></div>;
+  const [customerCount, setCustomerCount] = useState(0);
+  const targetCount = 100;
+
+  // State to store whether the input is focused or not
+  const [isFocused, setIsFocused] = useState(false);
+  const componentRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsFocused(true);
+        }
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    if (componentRef.current) {
+      observer.observe(componentRef.current);
+    }
+
+    // Cleanup observer on unmount
+    return () => {
+      if (componentRef.current) {
+        observer.unobserve(componentRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    let interval;
+    if (isFocused) {
+      // Function to gradually increase the count
+      let start = 0;
+      interval = setInterval(() => {
+        if (start < targetCount) {
+          start += 1;
+          setCustomerCount(start);
+        } else {
+          // Stop when the target is reached
+          clearInterval(interval);
+        }
+      }, 50);
+    }
+
+    return () => clearInterval(interval);
+  }, [isFocused]);
+  return (
+    <div className={styles.container} ref={componentRef}>
+      <div>{customerCount}+</div>
+      <div>{customerCount}+</div>
+      <div>{customerCount}+</div>
+      <div>{customerCount}+</div>
+    </div>
+  );
 };
 export default Achievements;
