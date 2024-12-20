@@ -14,8 +14,7 @@
 .section{
     display: flex;
     flex-direction: column;
-    align-items: center;
-   
+    align-items: center; 
 }
 .count{
     font-size: 40px;
@@ -26,15 +25,23 @@
     font-size: 20px;
     color: black
 }
-@keyframes fadeIn {
-    0% {
-      opacity: 0;
+
+@media (max-width: 768px) {
+    .container{
+        position: relative;
+        top:-50px;
+        left:10%;
+        box-shadow: 10px 10px 15px black;
+        background-color: white;
+        width:70vw;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
     }
-    100% {
-      opacity: 1;
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin: 15px 0;
     }
-  }
-  
-  .container {
-    animation: fadeIn 2s ease;
-  }
+}
