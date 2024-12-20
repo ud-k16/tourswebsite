@@ -1,35 +1,37 @@
 .container {
     display: flex;
-    padding: 5vw 0 ;
-    width: 100%;  
+    padding: 5vw 0;
+    width: 100%;
     background: linear-gradient(180deg, #230477, #9d94b6);
     justify-content: center;
-   
+
 }
 
 
 
 .textSection {
-    width:20vw;
+    width: 20vw;
     color: white;
     font-size: 20px;
     line-height: 30px;
     text-align: left;
 }
-.headingText{
+
+.headingText {
     color: white;
     font-size: 40px;
     font-weight: 900;
     line-height: 60px;
-    margin:0px 
+    margin: 0px
 }
+
 .cardSection {
     width: 60vw;
     flex-wrap: wrap;
-    display:flex;
+    display: flex;
     /* margin: 0 20px; */
     /* background-color: aqua; */
-   column-gap: 20px;
+    column-gap: 20px;
     justify-content: center;
     row-gap: 20px;
 }
@@ -38,26 +40,28 @@
     .container {
         display: flex;
         flex-direction: column;
-        padding: 5vw 10vw ;
-        width: 100%;  
+        padding: 5vw 10vw;
+        width: 100%;
         background: linear-gradient(180deg, #230477, #9d94b6);
         justify-content: center;
-       
+
     }
+
     .textSection {
-        width:87vw;
+        width: 82vw;
         color: white;
         font-size: 20px;
         line-height: 30px;
         text-align: left;
     }
+
     .cardSection {
-        width: 87vw;
+        width: 82vw;
         flex-wrap: wrap;
-        display:flex;
+        display: flex;
         margin: 25px 0px;
-       
-       column-gap: 20px;
+
+        column-gap: 20px;
         justify-content: center;
         row-gap: 20px;
     }

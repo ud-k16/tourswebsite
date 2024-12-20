@@ -31,6 +31,14 @@
 @media (max-width: 768px) {
     .container {
         display: flex;
-        width: 90vw
+        width: 93vw;
+    }
+    .box {
+        border-radius: 25px;
+        background-color: white;
+        width: 90vw;
+        height: 40vh;
+        position: relative;
+        margin: 20px 0
     }
 }
