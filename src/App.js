@@ -9,7 +9,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<TempScreen />} />
           <Route path="/blog" element={<TempScreen />} />
+          <Route path="/gallery" element={<TempScreen />} />
+          <Route path="/contact" element={<TempScreen />} />
         </Routes>
       </BrowserRouter>
     </div>

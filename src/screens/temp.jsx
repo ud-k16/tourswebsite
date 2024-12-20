@@ -1,4 +1,10 @@
+import Header from "../components/Header";
+
 const TempScreen = () => {
-  return <div>Temp screen</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 export default TempScreen;
