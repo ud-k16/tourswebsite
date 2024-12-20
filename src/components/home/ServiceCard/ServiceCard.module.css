@@ -55,4 +55,9 @@
         position: relative;
         margin: 20px 0
     }
+
+    .serviceDescription {
+        font-size: 24px;
+        
+    }
 }
