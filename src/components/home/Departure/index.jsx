@@ -1,4 +1,6 @@
+import { internationDepartures } from "../../../sampledata/sampledata";
 import Carousel from "../../Carousel";
+import LocationCard from "../LocationCard";
 
 const Departure = () => {
   const settings = {
@@ -15,7 +17,12 @@ const Departure = () => {
     <div>
       <div>International depature</div>
       <hr></hr>
-      <Carousel settings={settings} />
+      <Carousel
+        settings={settings}
+        children={internationDepartures.map((data, index) => (
+          <LocationCard locationImage={data.url} name={data.name} key={index} />
+        ))}
+      />
     </div>
   );
 };

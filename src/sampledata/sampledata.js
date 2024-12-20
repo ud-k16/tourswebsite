@@ -55,3 +55,23 @@ export const Benefits = [
       "Our travel experts is available 24/7 to assist you with any questions, concerns, or special requests to choose the perfect destination.",
   },
 ];
+
+export const internationDepartures = [
+  {
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
+    name: "Turkey",
+  },
+  {
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
+    name: "Japan",
+  },
+  {
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
+    name: "Kenya",
+  },
+  {
+    url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
+
+    name: "Australia",
+  },
+];

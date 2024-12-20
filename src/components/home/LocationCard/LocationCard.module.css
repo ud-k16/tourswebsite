@@ -1,0 +1,15 @@
+.buttonStyle{
+    width:150px;
+    height: 7vh;
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+   display: flex;
+  
+   align-items: center;
+   justify-content: center;
+}
