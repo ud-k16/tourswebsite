@@ -1,8 +1,8 @@
 import Header from "../components/Header";
-import FloatingWhatsappButton from "../components/Header";
-import EnquiryButton from "../components/Header";
-import FeaturedLocation from "../components/Header";
-import Services from "../components/Header";
+import FloatingWhatsappButton from "../components/WhatsAppButton";
+import EnquiryButton from "../components/Enquiry";
+import FeaturedLocation from "../components/FeaturedLocation";
+import Services from "../components/service";
 import { featuredTour } from "../sampledata/sampledata";
 
 const Home = () => {
