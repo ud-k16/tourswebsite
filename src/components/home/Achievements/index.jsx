@@ -53,10 +53,10 @@ const Achievements = () => {
   }, [isFocused]);
   return (
     <div className={styles.container} ref={componentRef}>
-      <div>{customerCount}+</div>
-      <div>{customerCount}+</div>
-      <div>{customerCount}+</div>
-      <div>{customerCount}+</div>
+      <div className={styles.section}>
+        <div className={styles.count}>{customerCount}+</div>
+        <div className={styles.title}>{"Happy Customers"}</div>
+      </div>
     </div>
   );
 };
