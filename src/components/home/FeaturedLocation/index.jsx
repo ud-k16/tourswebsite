@@ -1,4 +1,4 @@
-import Carousel from "../Carousel";
+import Carousel from "../../Carousel";
 import styles from "./FeaturedLocation.module.css";
 
 const FeaturedLocation = ({ featuredTour }) => {

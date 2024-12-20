@@ -5,7 +5,7 @@ import { RiTodoLine } from "react-icons/ri";
 import { GrMoney } from "react-icons/gr";
 import { AiOutlineTeam } from "react-icons/ai";
 import { useRef } from "react";
-import { Benefits } from "../../sampledata/sampledata";
+import { Benefits } from "../../../sampledata/sampledata";
 
 const Services = () => {
   const iconset = useRef([
