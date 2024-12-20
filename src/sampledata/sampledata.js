@@ -32,3 +32,26 @@ export const featuredTour = [
     days: "8",
   },
 ];
+
+export const Benefits = [
+  {
+    name: "Customisable Packages",
+    description:
+      "Tailor-made holidays for you! Tell us what you want and we will design it for you or explore our special packages.",
+  },
+  {
+    name: "Pre-planned Itinerary",
+    description:
+      "Our pre-planned itineraries are carefully crafted by travel experts from must-see attractions to hidden gems, our itineraries cover all the highlights",
+  },
+  {
+    name: "Affordable Price",
+    description:
+      "We understand the importance of providing value for your money. That's why we offer the best offer and travel experience.",
+  },
+  {
+    name: "Top Notch Support",
+    description:
+      "Our travel experts is available 24/7 to assist you with any questions, concerns, or special requests to choose the perfect destination.",
+  },
+];
