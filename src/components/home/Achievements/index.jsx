@@ -46,7 +46,7 @@ const Achievements = () => {
           // Stop when the target is reached
           clearInterval(interval);
         }
-      }, 50);
+      }, 10);
     }
 
     return () => clearInterval(interval);
@@ -64,7 +64,7 @@ const Achievements = () => {
       <div className={styles.section}>
         <div className={styles.count}>{customerCount}+</div>
         <div className={styles.title}>{"Happy Customers"}</div>
-      </div>{" "}
+      </div>
       <div className={styles.section}>
         <div className={styles.count}>{customerCount}+</div>
         <div className={styles.title}>{"Happy Customers"}</div>
