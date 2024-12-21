@@ -34,7 +34,9 @@ const MessageForm = ({ closeModal }) => {
             type="number"
             name="name"
             className={styles.input}
-            style={{ width: "80%" }}
+            style={{
+              width: "80%",
+            }}
             placeholder="WhatsApp / Phone Number"
           />
         </div>
