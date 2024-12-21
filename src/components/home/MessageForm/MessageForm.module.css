@@ -1,0 +1,40 @@
+.container{
+   
+
+}
+.header{
+    background-color: #230477;
+    color:white;
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+.closeButton{
+    position: relative;
+    color:white;
+    font-size: 26px;
+    font-weight: 600;
+    background-color:#230477;
+    cursor: pointer;
+  }
+
+  .formContainer{
+    padding : 10px 45px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    height:76vh
+  }
+
+  .input{
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    width: 100%;
+    height: 5vh;
+  }

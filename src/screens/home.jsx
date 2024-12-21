@@ -8,6 +8,7 @@ import Achievements from "../components/home/Achievements";
 import Departure from "../components/home/Departure";
 import { useState } from "react";
 import Modal from "../components/Modal";
+import MessageForm from "../components/home/MessageForm";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,7 +25,9 @@ const Home = () => {
       <Header />
       <FloatingWhatsappButton />
       <EnquiryButton openModal={openModal} />
-      {isModalOpen && <Modal />}
+      {isModalOpen && (
+        <Modal children={<MessageForm closeModal={closeModal} />} />
+      )}
       <FeaturedLocation featuredTour={featuredTour} />
       <Services />
       <Achievements />
