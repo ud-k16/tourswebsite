@@ -1,6 +1,7 @@
 import { internationDepartures } from "../../../sampledata/sampledata";
 import Carousel from "../../Carousel";
 import LocationCard from "../LocationCard";
+import styles from "./Departure.module.css";
 
 const Departure = () => {
   const settings = {
@@ -14,9 +15,9 @@ const Departure = () => {
     arrows: false, // Show arrows for navigation
   };
   return (
-    <div>
-      <div>International depature</div>
-      <hr></hr>
+    <div className={styles.container}>
+      <div className={styles.headingText}> Our International Depatures</div>
+      <hr className={styles.line} color="#230477"></hr>
       <Carousel
         settings={settings}
         children={internationDepartures.map((data, index) => (
