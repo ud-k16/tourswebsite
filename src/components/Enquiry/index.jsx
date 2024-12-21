@@ -2,8 +2,10 @@ import React from "react";
 
 import styles from "./Enquiry.module.css";
 
-const EnquiryButton = () => {
-  const handleClick = () => {};
+const EnquiryButton = ({ openModal }) => {
+  const handleClick = () => {
+    openModal();
+  };
 
   return (
     <div className={styles.EnquiryButton} onClick={handleClick}>
