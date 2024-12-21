@@ -1,3 +1,4 @@
+import { CountryList } from "../../../sampledata/sampledata";
 import styles from "./MessageForm.module.css";
 
 const MessageForm = ({ closeModal }) => {
@@ -13,7 +14,24 @@ const MessageForm = ({ closeModal }) => {
           className={styles.input}
           placeholder="Name"
         />
+        <div className={styles.phoneContainer}>
+          <select className={styles.countryContainer}>
+            {CountryList.map((data, index) => (
+              <option key={index}>
+                <img src={data.flag} className={styles.imgContainer} />
+                <div>{data.code}</div>
+              </option>
+            ))}
+          </select>
 
+          <input
+            type="number"
+            name="name"
+            className={styles.input}
+            style={{ width: "80%" }}
+            placeholder="WhatsApp / Phone Number"
+          />
+        </div>
         <input
           type="email"
           name="name"
