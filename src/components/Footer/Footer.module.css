@@ -1,0 +1,30 @@
+
+.container{
+    
+}
+.notificationSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttonStyle{
+    width:180px;
+    height: 7vh;
+    font-size: 15px;
+    color:white;
+    background:linear-gradient(30deg ,#704dcf, #230477);
+    border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.titleTextStyle{
+    font-size: 25px;
+    font-weight: 600;
+}
+.subtitleTextStyle{
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+}

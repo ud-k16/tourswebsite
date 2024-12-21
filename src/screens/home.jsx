@@ -9,6 +9,7 @@ import Departure from "../components/home/Departure";
 import { useState } from "react";
 import Modal from "../components/Modal";
 import MessageForm from "../components/home/MessageForm";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,8 +24,8 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <FloatingWhatsappButton />
-      <EnquiryButton openModal={openModal} />
+      {/* <FloatingWhatsappButton /> */}
+      {/* <EnquiryButton openModal={openModal} /> */}
       {isModalOpen && (
         <Modal children={<MessageForm closeModal={closeModal} />} />
       )}
@@ -32,6 +33,7 @@ const Home = () => {
       <Services />
       <Achievements />
       <Departure />
+      <Footer />
     </div>
   );
 };
