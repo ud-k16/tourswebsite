@@ -1,11 +1,17 @@
 import { CountryList } from "../../../sampledata/sampledata";
 import styles from "./MessageForm.module.css";
+import { IoCloseSharp } from "react-icons/io5";
 
 const MessageForm = ({ closeModal }) => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <div>Enquire Now</div>
+        <IoCloseSharp
+          size={20}
+          onClick={closeModal}
+          className={styles.closeButton}
+        />
       </div>
       <div className={styles.formContainer}>
         <input
