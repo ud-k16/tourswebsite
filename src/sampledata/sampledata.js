@@ -75,3 +75,15 @@ export const internationDepartures = [
     name: "Australia",
   },
 ];
+export const CountryList = [
+  {
+    code: "+91",
+    flag: "https://i.postimg.cc/2S5SBFYQ/india.jpg",
+    name: "India",
+  },
+  {
+    code: "+66",
+    flag: "https://i.postimg.cc/mg623zZ0/russia.png",
+    name: "Russia",
+  },
+];

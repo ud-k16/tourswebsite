@@ -38,6 +38,7 @@ const MessageForm = ({ closeModal }) => {
           className={styles.input}
           placeholder="No of People"
         />
+        <div className={styles.sendButton}>SEND MESSAGE</div>
       </div>
     </div>
   );
