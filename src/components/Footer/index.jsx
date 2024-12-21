@@ -2,6 +2,12 @@ import { Branches } from "../../sampledata/sampledata";
 import styles from "./Footer.module.css";
 import { TiMessages } from "react-icons/ti";
 import { FaLocationDot } from "react-icons/fa6";
+import { CiFacebook } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import { CiLinkedin } from "react-icons/ci";
+import { FaPinterestP } from "react-icons/fa";
+import { TbBrandYoutube } from "react-icons/tb";
 
 const Footer = () => {
   return (
@@ -49,6 +55,26 @@ const Footer = () => {
               <div>{data.phone}</div>
             </div>
           ))}
+        </div>
+      </div>
+      <div className={styles.socialLinkContainer}>
+        <div className={styles.iconContainer}>
+          <CiFacebook size={20} color="white" />
+        </div>
+        <div className={styles.iconContainer}>
+          <FaInstagram size={20} color="white" />
+        </div>
+        <div className={styles.iconContainer}>
+          <RiTwitterXFill size={20} color="white" />
+        </div>
+        <div className={styles.iconContainer}>
+          <CiLinkedin size={20} color="white" />
+        </div>
+        <div className={styles.iconContainer}>
+          <FaPinterestP size={20} color="white" />
+        </div>
+        <div className={styles.iconContainer}>
+          <TbBrandYoutube size={20} color="white" />
         </div>
       </div>
     </div>
