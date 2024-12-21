@@ -2,16 +2,20 @@ import styles from "./LocationCard.module.css";
 
 const LocationCard = ({ locationImage, name }) => {
   return (
-    <div>
-      <div alt="Image" style={{ backgroundImage: `url(${locationImage})` }}>
-        <div>{name}</div>
+    <div className={styles.container}>
+      <div
+        alt="Image"
+        style={{ backgroundImage: `url(${locationImage})` }}
+        className={styles.imageContainer}
+      >
+        <div className={styles.locationText}>{name}</div>
       </div>
       <div className={styles.action}>
-        <div className={styles.buttonStyle}>
-          <p style={{ margin: 0 }}>View More</p>
-        </div>
         <div className={styles.buttonStyle} style={{ background: "#230477" }}>
-          <p style={{ margin: 0 }}>Book Now</p>
+          More Info
+        </div>
+        <div className={styles.buttonStyle} style={{ color: "#230477" }}>
+          Enquiry Now
         </div>
       </div>
     </div>

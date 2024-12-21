@@ -1,15 +1,44 @@
-.buttonStyle{
-    width:150px;
-    height: 7vh;
+.container {
+    width: 20vw
+}
+
+
+.buttonStyle {
+    width: 130px;
+    height: 5vh;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: "#230477";
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.imageContainer {
+    border-radius: 20px;
+    height: 25vh;
+    background-size: cover;
+    
+    display: flex;
+}
+
+.locationText {
+    position: relative;
+    color: white;
     font-size: 20px;
     font-weight: 600;
-    color:white;
-    border-radius: 10px;
-    border-width: 3px;
-    border-color: white;
-    border-style: solid;
-   display: flex;
-  
-   align-items: center;
-   justify-content: center;
+    left:15px;
+    bottom: -18vh;
+    
 }
