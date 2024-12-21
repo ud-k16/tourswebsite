@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.notificationSection}>
         <TiMessages size={70} />
         <div>

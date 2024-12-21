@@ -1,12 +1,12 @@
 
 .container{
-
+   background-color:   #e6e6f0
 }
 .notificationSection{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #c3bed1;
+    background-color: #aeabb6;
     padding: 40px 0;
 }
 .buttonStyle{
