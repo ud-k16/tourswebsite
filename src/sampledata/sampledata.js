@@ -87,3 +87,24 @@ export const CountryList = [
     name: "Russia",
   },
 ];
+
+export const Branches = [
+  {
+    city: "Madurai",
+    address:
+      "501/1 Siva Sakthi Apartment,11th Cross Street, Anna Nagar, Madurai – 625020.",
+    phone: "91 86800 00578",
+  },
+  {
+    city: "Coimbatore",
+    address:
+      "No. 6, (2nd Floor), Dr.Ambedkar Street, (Near ICICI ATM), Opp: Hotel Virudhunagar Chettinad, Meenambakkam, Chennai – 600 016.",
+    phone: "+91 86800 00328",
+  },
+  {
+    city: "Chennai",
+    address:
+      "No.306 D-1, 2nd Floor, Visakam Complex, Sathy main Road (N H), Sivanandapuram, Saravanampatti, Coimbatore – 641 035.",
+    phone: "+91 86800 00648",
+  },
+];

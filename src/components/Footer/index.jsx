@@ -1,5 +1,7 @@
+import { Branches } from "../../sampledata/sampledata";
 import styles from "./Footer.module.css";
 import { TiMessages } from "react-icons/ti";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -35,6 +37,19 @@ const Footer = () => {
             Privacy Policy
           </a>
         </nav>
+      </div>
+      <div>
+        <div className={styles.headingText}>Branches</div>
+        <div className={styles.locationContainer}>
+          {Branches.map((data, index) => (
+            <div className={styles.locationCard} key={index}>
+              <FaLocationDot size={40} />
+              <div>{data.city}</div>
+              <div>{data.address}</div>
+              <div>{data.phone}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

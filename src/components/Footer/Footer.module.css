@@ -43,3 +43,20 @@
     font-weight: 300;
     color: #000;
 }
+
+.headingText{
+    color: #230477;
+    font-weight: 600;
+    font-size: 30px;
+    margin:20px 0px
+}
+.locationCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 50px;
+}
+.locationContainer{
+    display: flex ;
+
+}
