@@ -18,12 +18,23 @@ const Departure = () => {
     <div className={styles.container}>
       <div className={styles.headingText}> Our International Depatures</div>
       <hr className={styles.line} color="#230477"></hr>
-      <Carousel
-        settings={settings}
-        children={internationDepartures.map((data, index) => (
-          <LocationCard locationImage={data.url} name={data.name} key={index} />
-        ))}
-      />
+      <div
+        style={{
+          paddingRight: 50,
+          paddingLeft: 90,
+        }}
+      >
+        <Carousel
+          settings={settings}
+          children={internationDepartures.map((data, index) => (
+            <LocationCard
+              locationImage={data.url}
+              name={data.name}
+              key={index}
+            />
+          ))}
+        />
+      </div>
     </div>
   );
 };
