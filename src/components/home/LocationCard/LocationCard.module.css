@@ -42,3 +42,14 @@
     bottom: -18vh;
     
 }
+
+@media (max-width: 768px) {
+    .imageContainer {
+        border-radius: 20px;
+        width: 45vw;
+        height: 25vh;
+        background-size: cover;  
+        display: flex;
+       
+    }
+}

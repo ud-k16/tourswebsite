@@ -1,14 +1,25 @@
+import { useEffect, useState } from "react";
 import { internationDepartures } from "../../../sampledata/sampledata";
 import Carousel from "../../Carousel";
 import LocationCard from "../LocationCard";
 import styles from "./Departure.module.css";
 
 const Departure = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    // Clean up on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   const settings = {
     dots: false, // Display navigation dots
     infinite: true, // Infinite loop
     speed: 500, // Transition speed
-    slidesToShow: 3, // Number of slides to show
+    slidesToShow: windowWidth > 768 ? 3 : 1, // Number of slides to show
     slidesToScroll: 1, // Number of slides to scroll
     autoplay: true, // Enable autoplay
     autoplaySpeed: 2000, // Speed of autoplay
@@ -18,12 +29,7 @@ const Departure = () => {
     <div className={styles.container}>
       <div className={styles.headingText}> Our International Depatures</div>
       <hr className={styles.line} color="#230477"></hr>
-      <div
-        style={{
-          paddingRight: 50,
-          paddingLeft: 90,
-        }}
-      >
+      <div className={styles.carouselContainer}>
         <Carousel
           settings={settings}
           children={internationDepartures.map((data, index) => (
