@@ -48,7 +48,9 @@
     color: #230477;
     font-weight: 600;
     font-size: 30px;
-    margin:20px 0px
+    margin:20px 0px;
+    width:90vw;
+    
 }
 .locationCard{
     display: flex;
