@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <div>
       <Header />
-      {/* <FloatingWhatsappButton /> */}
-      {/* <EnquiryButton /> */}
+      <FloatingWhatsappButton />
+      <EnquiryButton />
       <FeaturedLocation featuredTour={featuredTour} />
       <Services />
       <Achievements />
