@@ -6,7 +6,7 @@ const Contact = () => {
     <div className={styles.container}>
       <div className={styles.description}>
         <div className={styles.titleText}>We are Sky Planet Holidays</div>
-        <div>
+        <div className={styles.adviceryText}>
           Sky Planet Holidays is a leading worldwide tour operator, dedicated to
           providing exceptional travel experiences tailored to our customers’
           interests. Accredited by IATA and the Travel Agent Federation of
@@ -16,9 +16,31 @@ const Contact = () => {
           commitment to customer satisfaction has earned us accolades from
           clients and partners, propelling us forward in the world of travel.
         </div>
+        <div className={styles.titleText}>We Provide</div>
+        <div className={styles.adviceryText}>
+          Customized tour packages <br />
+          <br />
+          24/7 Support for Your Travel Needs <br />
+          <br />
+          Expertly Skilled and Dedicated Team
+          <br />
+          <br />
+          Trusted for Excellence and Reliability <br />
+          <br />
+          Specially crafted pre-planned
+          <br />
+          <br />
+          itinerary International and Domestic Travel Plans <br />
+          <br />
+          Focused on Quality, Service and Customer Satisfaction"
+        </div>
       </div>
 
       <div className={styles.formContainer}>
+        <div className={styles.titleContactText}>Quick Contact</div>
+        <div>
+          Plan Your Holidays With Our Assistance, Just Fill In Your Details.
+        </div>
         <input
           type="text"
           name="name"
