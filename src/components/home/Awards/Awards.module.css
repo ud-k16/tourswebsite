@@ -1,0 +1,14 @@
+.container{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+}
+.imgContainer{
+    height: 30vh;
+    object-fit: contain;
+    width:100%
+}
+.awardText{
+   font-size: 16px;    
+}

@@ -12,6 +12,7 @@ import MessageForm from "../components/home/MessageForm";
 import Footer from "../components/Footer";
 import Contact from "../components/home/Contact";
 import FixedDeparture from "../components/home/FixedDeparture";
+import Awards from "../components/home/Awards";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -36,6 +37,7 @@ const Home = () => {
       <Achievements />
       <Departure />
       <FixedDeparture />
+      <Awards />
       <Contact />
       <Footer />
     </div>

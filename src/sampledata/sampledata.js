@@ -108,3 +108,26 @@ export const Branches = [
     phone: "+91 86800 00648",
   },
 ];
+
+export const AwardsReceived = [
+  {
+    url: "https://skyplanetholidays.com/wp-content/uploads/2024/05/6.png",
+    name: "ET Excellence Award",
+  },
+  {
+    url: "https://skyplanetholidays.com/wp-content/uploads/2024/05/2-1.png",
+    name: "IITE-India International Exhibition",
+  },
+  {
+    url: "https://skyplanetholidays.com/wp-content/uploads/2024/05/3-1.png",
+    name: "People's Choice Award",
+  },
+  {
+    url: "https://skyplanetholidays.com/wp-content/uploads/2024/05/4-1.png",
+    name: "ICNB124",
+  },
+  {
+    url: "https://skyplanetholidays.com/wp-content/uploads/2024/05/5.png",
+    name: "CEDOI Awards Night 2023",
+  },
+];
