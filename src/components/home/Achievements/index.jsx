@@ -54,20 +54,20 @@ const Achievements = () => {
   return (
     <div className={styles.container} ref={componentRef}>
       <div className={styles.section}>
-        <div className={styles.count}>{customerCount}+</div>
+        <div className={styles.count}>{customerCount * 15}+</div>
         <div className={styles.title}>{"Happy Customers"}</div>
       </div>
       <div className={styles.section}>
         <div className={styles.count}>{customerCount}+</div>
-        <div className={styles.title}>{"Happy Customers"}</div>
+        <div className={styles.title}>{"Countries"}</div>
       </div>
       <div className={styles.section}>
-        <div className={styles.count}>{customerCount}+</div>
-        <div className={styles.title}>{"Happy Customers"}</div>
+        <div className={styles.count}>{customerCount * 8}+</div>
+        <div className={styles.title}>{"Destination"}</div>
       </div>
       <div className={styles.section}>
-        <div className={styles.count}>{customerCount}+</div>
-        <div className={styles.title}>{"Happy Customers"}</div>
+        <div className={styles.count}>{customerCount * 3} +</div>
+        <div className={styles.title}>{"Tours Completed"}</div>
       </div>
     </div>
   );
