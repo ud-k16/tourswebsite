@@ -77,6 +77,7 @@ const Footer = () => {
           <TbBrandYoutube size={20} color="white" />
         </div>
       </div>
+      <div className={styles.copyright}>XcelTours-All Rights Reserved</div>
     </div>
   );
 };
