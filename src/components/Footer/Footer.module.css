@@ -64,7 +64,7 @@
 }
 .socialLinkContainer{
     display: flex;
-    width:50vw;
+  
     align-self: flex-end;
     column-gap: 8px;
     padding: 20px;
@@ -82,7 +82,7 @@
     border-radius: 10px;
     padding: 3px;
     width: 40px;
-height:40px
+    height:40px
    
 }
 
@@ -98,6 +98,16 @@ height:40px
         font-size: 30px;
         margin:20px 0px;
         width:100vw;
+        
+    }
+    .socialLinkContainer{
+        display: flex;
+        width:100%;
+        align-self: flex-end;
+        column-gap: 8px;
+        padding: 20px;
+        position: relative;
+        left:10%;
         
     }
   }
