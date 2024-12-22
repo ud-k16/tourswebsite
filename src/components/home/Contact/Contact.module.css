@@ -85,9 +85,30 @@
   }
   @media (max-width: 768px) {
     .container{
+      padding: 15px ;
+      width: 95vw;
         display: flex;
         flex-direction: column;
     justify-content: center;
     background-color: #b19de9;
     }
+    .description{
+     width: 100%;   
+      row-gap: 30px;
+      margin-bottom: 20px;
+     }
+     .formContainer{
+      border-radius: 20px;
+      width: 70vw;
+      padding : 20px 45px 20px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 26px;
+      height:86vh;
+      border-style: solid;
+      border-width: 3px;
+      border-color: white;
+      
+    }
+    
   }
