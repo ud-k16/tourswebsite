@@ -25,7 +25,9 @@ const Awards = () => {
     arrows: false,
   };
   return (
-    <div>
+    <div style={{ padding: 10, backgroundColor: "#88868d" }}>
+      <div className={styles.headingText}>Our Awards</div>
+      <hr className={styles.line} color="#230477"></hr>
       <Carousel
         settings={settings}
         children={AwardsReceived.map((data, index) => (

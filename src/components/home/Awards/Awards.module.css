@@ -12,3 +12,17 @@
 .awardText{
    font-size: 16px;    
 }
+
+.headingText {
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+
+.line {
+    width: 20vw;
+    border-width: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #88868d;
+}
