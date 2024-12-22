@@ -85,3 +85,19 @@
 height:40px
    
 }
+
+@media (max-width: 768px) {
+    .locationContainer{
+        display: flex ;
+        flex-direction: column;
+    
+    }
+    .headingText{
+        color: #230477;
+        font-weight: 600;
+        font-size: 30px;
+        margin:20px 0px;
+        width:100vw;
+        
+    }
+  }
