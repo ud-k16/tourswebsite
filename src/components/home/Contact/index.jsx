@@ -5,16 +5,16 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.description}>
-        <div className={styles.titleText}>We are Sky Planet Holidays</div>
+        <div className={styles.titleText}>We are Xcel Tours</div>
         <div className={styles.adviceryText}>
-          Sky Planet Holidays is a leading worldwide tour operator, dedicated to
-          providing exceptional travel experiences tailored to our customers’
-          interests. Accredited by IATA and the Travel Agent Federation of
-          India, we uphold the highest standards of service and professionalism.
-          With decades of experience, we’ve set the standard for group tours
-          globally, earning recognition for excellence and reliability. Our
-          commitment to customer satisfaction has earned us accolades from
-          clients and partners, propelling us forward in the world of travel.
+          Xce Tours is a leading worldwide tour operator, dedicated to providing
+          exceptional travel experiences tailored to our customers’ interests.
+          Accredited by IATA and the Travel Agent Federation of India, we uphold
+          the highest standards of service and professionalism. With decades of
+          experience, we’ve set the standard for group tours globally, earning
+          recognition for excellence and reliability. Our commitment to customer
+          satisfaction has earned us accolades from clients and partners,
+          propelling us forward in the world of travel.
         </div>
         <div className={styles.titleText}>We Provide</div>
         <div className={styles.adviceryText}>
