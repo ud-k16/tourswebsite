@@ -16,7 +16,7 @@ const Carousel = ({
   },
 }) => {
   return (
-    <div className="carousel-container">
+    <div>
       <Slider {...settings}>{children}</Slider>
     </div>
   );

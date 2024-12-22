@@ -1,10 +1,12 @@
 .container {
-    width: 20vw
+    margin-right: 5px;
+    margin-left: 5px;
+    /* width: 20vw */
 }
 
 
 .buttonStyle {
-    width: 130px;
+    width: 45%;
     height: 5vh;
     font-size: 15px;
     font-weight: 600;
@@ -28,8 +30,7 @@
 .imageContainer {
     border-radius: 20px;
     height: 25vh;
-    background-size: cover;
-    
+    background-size: cover; 
     display: flex;
 }
 
@@ -46,7 +47,6 @@
 @media (max-width: 768px) {
     .imageContainer {
         border-radius: 20px;
-        width: 45vw;
         height: 25vh;
         background-size: cover;  
         display: flex;
@@ -57,17 +57,17 @@
         justify-content: space-between;
         align-items: center;
         margin: 30px 0px;
-        width: 45vw;
+       
     }
     .buttonStyle {
-        width: 90px;
+        width: 45%;
         height: 5vh;
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 600;
         color: white;
         border-radius: 20px;
         border-width: 1px;
-        border-color: "#230477";
+        border-color: #230477;
         border-style: solid;
         display: flex;
         align-items: center;
