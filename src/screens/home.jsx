@@ -24,8 +24,8 @@ const Home = () => {
   return (
     <div>
       <Header />
-      {/* <FloatingWhatsappButton /> */}
-      {/* <EnquiryButton openModal={openModal} /> */}
+      <FloatingWhatsappButton />
+      <EnquiryButton openModal={openModal} />
       {isModalOpen && (
         <Modal children={<MessageForm closeModal={closeModal} />} />
       )}

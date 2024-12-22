@@ -13,5 +13,11 @@
      background-color: white;
      height:90vh;
      width: 50vw;
-    };
+    }
    
+    @media (max-width: 768px) {
+      .modal {
+        height:90vh;
+        width: 80vw;
+       };
+    }
