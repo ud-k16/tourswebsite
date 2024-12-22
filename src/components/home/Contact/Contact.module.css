@@ -2,6 +2,7 @@
     display: flex;
     padding: 45px 80px;
     background-color: #695d8a;
+    max-width: 100%;
    
 }
 .description{
