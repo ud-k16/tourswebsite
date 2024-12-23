@@ -28,7 +28,7 @@ const ReviewSection = () => {
     <div className={styles.container}>
       <div className={styles.headingText}>Our Customer's Review</div>
       <hr className={styles.line} color="grey"></hr>
-      <div>
+      <div style={{ color: "white" }}>
         Hundreds of our clients have already enjoyed our service and traveled
         the world with our help
       </div>
