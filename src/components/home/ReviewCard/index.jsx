@@ -1,6 +1,7 @@
 import styles from "./ReviewCard.module.css";
 import ReactStars from "react-rating-stars-component";
 import { FcGoogle } from "react-icons/fc";
+import { IoIosStar } from "react-icons/io";
 
 const ReviewCard = ({ userName = "", url }) => {
   return (
@@ -16,13 +17,21 @@ const ReviewCard = ({ userName = "", url }) => {
         </div>
         <div className={styles.detail}>
           <div className={styles.userName}>Pankaj</div>
-          <div>
-            <ReactStars
-              count={5}
-              size={24}
-              activeColor="#ffd700"
-              onChange={() => {}}
-            />
+          <div
+            style={{
+              alignSelf: "center",
+              margin: 5,
+              height: 20,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <IoIosStar size={20} color="orange" />
+            <IoIosStar size={20} color="orange" />
+            <IoIosStar size={20} color="orange" />
+            <IoIosStar size={20} color="orange" />
+            <IoIosStar size={20} color="orange" />
           </div>
 
           <div className={styles.date}>Dec 26,2023</div>
