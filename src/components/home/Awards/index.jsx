@@ -25,7 +25,7 @@ const Awards = () => {
     arrows: false,
   };
   return (
-    <div style={{ padding: 10, backgroundColor: "#88868d" }}>
+    <div style={{ padding: 10 }}>
       <div className={styles.headingText}>Our Awards</div>
       <hr className={styles.line} color="#230477"></hr>
       <Carousel
