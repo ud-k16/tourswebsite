@@ -22,7 +22,7 @@ const ReviewSection = () => {
     slidesToShow: windowWidth > 768 ? 3 : 1,
     slidesToScroll: 1,
     arrows: true,
-    variableWidth: true,
+    // variableWidth: true,
   };
 
   return (
