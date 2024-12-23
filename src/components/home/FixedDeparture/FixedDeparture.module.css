@@ -1,7 +1,6 @@
 .container {
     width: 100vw;
     position: relative;
-    background-color: rgb(219, 212, 212);
     box-sizing: border-box;
 }
 
