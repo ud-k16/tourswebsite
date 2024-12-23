@@ -1,0 +1,30 @@
+.container {
+    width: 100vw;
+    position: relative;
+    background-color: rgb(219, 212, 212);
+    box-sizing: border-box;
+    padding:5px 45px;
+}
+
+.headingText {
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+
+.line {
+    width: 20vw;
+    border-width: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+.carouselContainer {
+   padding:  3%;
+}
+
+@media (max-width: 768px) {
+    .carouselContainer {
+        
+    }
+}

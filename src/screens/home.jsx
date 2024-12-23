@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 import Contact from "../components/home/Contact";
 import FixedDeparture from "../components/home/FixedDeparture";
 import Awards from "../components/home/Awards";
+import ReviewSection from "../components/home/ReviewSection";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -38,6 +39,7 @@ const Home = () => {
       <Departure />
       <FixedDeparture />
       <Awards />
+      <ReviewSection />
       <Contact />
       <Footer />
     </div>

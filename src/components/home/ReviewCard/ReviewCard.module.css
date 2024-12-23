@@ -1,0 +1,55 @@
+.container{
+    padding: 10% 2px;
+    /* height: 50vh; */
+}
+
+.box {
+    border-radius: 10px;
+    background-color: white;
+    width: 25vw;
+    height: 35vh;
+    position: relative;
+    padding: 2px 5px;
+}
+
+.icon {
+    top: -40px;
+    left: 40%;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+   
+}
+
+.serviceName {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+
+@media (max-width: 768px) {
+  
+    .box {
+        border-radius: 25px;
+        background-color: white;
+        width: 90vw;
+        height: 40vh;
+        position: relative;
+        margin: 20px 0
+    }
+
+    .serviceDescription {
+        font-size: 16px;
+        
+    }
+}
