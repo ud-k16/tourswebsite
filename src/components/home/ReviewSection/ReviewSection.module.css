@@ -1,7 +1,7 @@
 .container {
     width: 100vw;
     position: relative;
-    background-color: rgb(15, 9, 68);
+    background-color: rgb(34, 26, 114);
     box-sizing: border-box;
     padding:5px 45px;
 }
@@ -23,6 +23,25 @@
     box-sizing: border-box;
     padding:0px 10px
   
+}
+
+.buttonStyle{
+ position: absolute;
+ left: 45%;
+ margin:40px;
+ bottom:-30px;
+    width:150px;
+    height: 5vh;
+    font-size: 15px;
+    color: #000;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 @media (max-width: 768px) {

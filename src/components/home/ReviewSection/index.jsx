@@ -22,6 +22,7 @@ const ReviewSection = () => {
     slidesToShow: windowWidth > 768 ? 3 : 1,
     slidesToScroll: 1,
     arrows: true,
+    variableWidth: true,
   };
 
   return (
@@ -40,6 +41,7 @@ const ReviewSection = () => {
           ))}
         />
       </div>
+      {/* <div className={styles.buttonStyle}>Write A Review</div> */}
     </div>
   );
 };
