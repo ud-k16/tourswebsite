@@ -67,7 +67,9 @@
         background-color: white;
         height: 40vh;
         position: relative;
-        margin: 20px 0
+        margin: 20px 20px;
+        width:90%;
+        max-width: 90%;
     }
 
     .reviewText {
