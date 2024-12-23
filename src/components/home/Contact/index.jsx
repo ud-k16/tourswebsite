@@ -38,7 +38,7 @@ const Contact = () => {
 
       <div className={styles.formContainer}>
         <div className={styles.titleContactText}>Quick Contact</div>
-        <div>
+        <div style={{ color: "white" }}>
           Plan Your Holidays With Our Assistance, Just Fill In Your Details.
         </div>
         <input
