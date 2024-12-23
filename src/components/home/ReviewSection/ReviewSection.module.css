@@ -9,7 +9,7 @@
 .headingText {
     font-size: 40px;
     font-weight: 900;
-    color: black;
+    color: white;
 }
 
 .line {
@@ -20,7 +20,8 @@
 }
 
 .carouselContainer {
-   padding:  3%;
+    box-sizing: border-box;
+   /* padding:  3%; */
 }
 
 @media (max-width: 768px) {

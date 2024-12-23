@@ -28,11 +28,15 @@ const ReviewSection = () => {
     <div className={styles.container}>
       <div className={styles.headingText}>Our Customer's Review</div>
       <hr className={styles.line} color="grey"></hr>
+      <div>
+        Hundreds of our clients have already enjoyed our service and traveled
+        the world with our help
+      </div>
       <div className={styles.carouselContainer}>
         <Carousel
           settings={settings}
           children={internationDepartures.map((data, index) => (
-            <ReviewCard userName={data.name} />
+            <ReviewCard userName={data.name} url={data.url} key={index} />
           ))}
         />
       </div>
