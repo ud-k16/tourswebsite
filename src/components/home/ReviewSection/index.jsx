@@ -16,12 +16,12 @@ const ReviewSection = () => {
     };
   }, []);
   const settings = {
-    dots: false, // Display navigation dots
-    infinite: true, // Infinite loop
-    speed: 500, // Transition speed
-    slidesToShow: windowWidth > 768 ? 3 : 1, // Number of slides to show
-    slidesToScroll: 1, // Number of slides to scroll
-    arrows: true, // Show arrows for navigation
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: windowWidth > 768 ? 3 : 1,
+    slidesToScroll: 1,
+    arrows: true,
   };
 
   return (
