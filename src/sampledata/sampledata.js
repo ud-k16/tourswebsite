@@ -3,7 +3,7 @@ export const featuredTour = [
     url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
 
     to: "Japan-South Korea",
-    package: "1,23,45,300",
+    package: "3,45,300",
     nights: "10",
     days: "11",
   },
@@ -11,7 +11,7 @@ export const featuredTour = [
     url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
 
     to: "Scandinavia",
-    package: "3,45,12,300",
+    package: "5,12,300",
     nights: "11",
     days: "9",
   },
@@ -19,7 +19,7 @@ export const featuredTour = [
     url: "https://i.postimg.cc/wBRfM81r/eberhard-grossgasteiger-e0-M3-I9v-Q6hg-unsplash.jpg",
 
     to: "UK - Europe",
-    package: "8,67,300",
+    package: "3,67,300",
     nights: "4",
     days: "5",
   },
