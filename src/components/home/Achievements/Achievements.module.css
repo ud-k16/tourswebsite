@@ -1,10 +1,10 @@
 .container{
     position: relative;
     top:-50px;
-    left:10%;
+   place-self: center;
     box-shadow: 10px 10px 15px black;
     background-color: white;
-    width:78vw;
+    width:80dvw;
     padding: 40px 20px;
     display: flex;
     justify-content: space-around;
@@ -30,7 +30,7 @@
     .container{
         position: relative;
         top:-50px;
-        left:10%;
+        place-self: center;
         box-shadow: 10px 10px 15px black;
         background-color: white;
         width:70vw;
